@@ -17,6 +17,7 @@
             this.Hide();
             FormProductos formProductos = new FormProductos();
             formProductos.ShowDialog();
+            this.Close();
         }
 
         private void button_compras_Click(object sender, EventArgs e)
@@ -24,6 +25,7 @@
             this.Hide();
             FormCompras formCompras = new FormCompras();
             formCompras.ShowDialog();
+            this.Close();
         }
     }
 }

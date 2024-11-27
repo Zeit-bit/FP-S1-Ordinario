@@ -9,6 +9,6 @@ namespace PuntoDeVenta_WinFormsApp.Classes
     class Producto
     {
         public string nombre { get; set; }
-        public string precio { get; set; }
+        public int precio { get; set; }
     }
 }

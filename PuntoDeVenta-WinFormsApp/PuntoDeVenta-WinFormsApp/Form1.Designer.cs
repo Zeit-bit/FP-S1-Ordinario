@@ -40,6 +40,7 @@
             textBox_clave = new TextBox();
             panel3 = new Panel();
             textBox_id = new TextBox();
+            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
@@ -205,5 +206,6 @@
         private TextBox textBox_clave;
         private Panel panel3;
         private TextBox textBox_id;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

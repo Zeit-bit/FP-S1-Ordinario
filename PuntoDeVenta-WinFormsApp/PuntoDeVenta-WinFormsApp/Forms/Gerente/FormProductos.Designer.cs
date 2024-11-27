@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormProductos));
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
             label_selected = new Label();
             panel1 = new Panel();
             pictureBox2 = new PictureBox();
@@ -37,12 +39,19 @@
             button_compras = new Button();
             button_productos = new Button();
             button_empleados = new Button();
-            dataGridView1 = new DataGridView();
-            button1 = new Button();
+            dataGridView_Productos = new DataGridView();
+            panel2 = new Panel();
+            textBox_producto = new TextBox();
+            numericUpDown_precio = new NumericUpDown();
+            button_confirmarPrecio = new Button();
+            label3 = new Label();
+            label2 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView_Productos).BeginInit();
+            panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown_precio).BeginInit();
             SuspendLayout();
             // 
             // label_selected
@@ -50,7 +59,7 @@
             label_selected.AutoSize = true;
             label_selected.BackColor = Color.Transparent;
             label_selected.Font = new Font("Verdana", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label_selected.Location = new Point(296, 28);
+            label_selected.Location = new Point(367, 38);
             label_selected.Name = "label_selected";
             label_selected.Size = new Size(178, 35);
             label_selected.TabIndex = 9;
@@ -74,9 +83,9 @@
             // 
             pictureBox2.BackgroundImageLayout = ImageLayout.None;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(3, 34);
+            pictureBox2.Location = new Point(0, 34);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(257, 135);
+            pictureBox2.Size = new Size(260, 135);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 8;
             pictureBox2.TabStop = false;
@@ -146,35 +155,119 @@
             button_empleados.UseVisualStyleBackColor = false;
             button_empleados.Click += button_empleados_Click;
             // 
-            // dataGridView1
+            // dataGridView_Productos
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(296, 81);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(1011, 510);
-            dataGridView1.TabIndex = 10;
+            dataGridView_Productos.AllowUserToAddRows = false;
+            dataGridView_Productos.AllowUserToDeleteRows = false;
+            dataGridView_Productos.AllowUserToResizeColumns = false;
+            dataGridView_Productos.AllowUserToResizeRows = false;
+            dataGridView_Productos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+            dataGridView_Productos.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            dataGridView_Productos.BackgroundColor = SystemColors.Control;
+            dataGridView_Productos.BorderStyle = BorderStyle.None;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = Color.White;
+            dataGridViewCellStyle3.Font = new Font("Verdana", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle3.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = Color.White;
+            dataGridViewCellStyle3.SelectionForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.True;
+            dataGridView_Productos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridView_Productos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = Color.White;
+            dataGridViewCellStyle4.Font = new Font("Verdana", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle4.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle4.SelectionBackColor = Color.White;
+            dataGridViewCellStyle4.SelectionForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
+            dataGridView_Productos.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridView_Productos.Location = new Point(367, 126);
+            dataGridView_Productos.Name = "dataGridView_Productos";
+            dataGridView_Productos.ReadOnly = true;
+            dataGridView_Productos.RowHeadersVisible = false;
+            dataGridView_Productos.Size = new Size(371, 568);
+            dataGridView_Productos.TabIndex = 10;
+            dataGridView_Productos.CellContentClick += dataGridView_Productos_CellContentClick_1;
             // 
-            // button1
+            // panel2
             // 
-            button1.BackColor = Color.FromArgb(205, 51, 51);
-            button1.FlatAppearance.BorderColor = Color.Black;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Verdana", 14.25F);
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(666, 615);
-            button1.Name = "button1";
-            button1.Size = new Size(267, 80);
-            button1.TabIndex = 11;
-            button1.Text = "Editar precios";
-            button1.UseVisualStyleBackColor = false;
+            panel2.BackColor = Color.FromArgb(247, 247, 247);
+            panel2.BorderStyle = BorderStyle.FixedSingle;
+            panel2.Controls.Add(textBox_producto);
+            panel2.Controls.Add(numericUpDown_precio);
+            panel2.Controls.Add(button_confirmarPrecio);
+            panel2.Controls.Add(label3);
+            panel2.Controls.Add(label2);
+            panel2.Location = new Point(793, 175);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(401, 360);
+            panel2.TabIndex = 11;
+            // 
+            // textBox_producto
+            // 
+            textBox_producto.BackColor = Color.FromArgb(234, 234, 234);
+            textBox_producto.BorderStyle = BorderStyle.FixedSingle;
+            textBox_producto.Font = new Font("Verdana", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox_producto.Location = new Point(36, 52);
+            textBox_producto.Name = "textBox_producto";
+            textBox_producto.Size = new Size(296, 37);
+            textBox_producto.TabIndex = 0;
+            // 
+            // numericUpDown_precio
+            // 
+            numericUpDown_precio.BackColor = Color.FromArgb(234, 234, 234);
+            numericUpDown_precio.Font = new Font("Verdana", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            numericUpDown_precio.Location = new Point(36, 168);
+            numericUpDown_precio.Maximum = new decimal(new int[] { 200, 0, 0, 0 });
+            numericUpDown_precio.Minimum = new decimal(new int[] { 10, 0, 0, 0 });
+            numericUpDown_precio.Name = "numericUpDown_precio";
+            numericUpDown_precio.Size = new Size(120, 37);
+            numericUpDown_precio.TabIndex = 12;
+            numericUpDown_precio.Value = new decimal(new int[] { 10, 0, 0, 0 });
+            // 
+            // button_confirmarPrecio
+            // 
+            button_confirmarPrecio.BackColor = Color.FromArgb(205, 51, 51);
+            button_confirmarPrecio.FlatAppearance.BorderColor = Color.Black;
+            button_confirmarPrecio.FlatStyle = FlatStyle.Flat;
+            button_confirmarPrecio.Font = new Font("Verdana", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button_confirmarPrecio.ForeColor = Color.White;
+            button_confirmarPrecio.Location = new Point(102, 259);
+            button_confirmarPrecio.Name = "button_confirmarPrecio";
+            button_confirmarPrecio.Size = new Size(196, 70);
+            button_confirmarPrecio.TabIndex = 8;
+            button_confirmarPrecio.Text = "Confirmar";
+            button_confirmarPrecio.UseVisualStyleBackColor = false;
+            button_confirmarPrecio.Click += button_login_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Verdana", 14.25F);
+            label3.Location = new Point(36, 134);
+            label3.Name = "label3";
+            label3.Size = new Size(145, 23);
+            label3.TabIndex = 6;
+            label3.Text = "Nuevo precio:";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Verdana", 14.25F);
+            label2.Location = new Point(36, 26);
+            label2.Name = "label2";
+            label2.Size = new Size(216, 23);
+            label2.TabIndex = 5;
+            label2.Text = "Nombre de producto:";
             // 
             // FormProductos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1318, 717);
-            Controls.Add(button1);
-            Controls.Add(dataGridView1);
+            Controls.Add(panel2);
+            Controls.Add(dataGridView_Productos);
             Controls.Add(label_selected);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
@@ -184,7 +277,10 @@
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView_Productos).EndInit();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown_precio).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -199,7 +295,12 @@
         private Button button_compras;
         private Button button_productos;
         private Button button_empleados;
-        private DataGridView dataGridView1;
-        private Button button1;
+        private DataGridView dataGridView_Productos;
+        private Panel panel2;
+        private TextBox textBox_producto;
+        private NumericUpDown numericUpDown_precio;
+        private Button button_confirmarPrecio;
+        private Label label3;
+        private Label label2;
     }
 }
