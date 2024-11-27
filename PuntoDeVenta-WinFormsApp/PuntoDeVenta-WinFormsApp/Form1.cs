@@ -1,6 +1,7 @@
 using System.Text.Json.Nodes;
 using System.Text.Json;
 using PuntoDeVenta_WinFormsApp.Classes;
+using PuntoDeVenta_WinFormsApp.Forms.Gerente;
 
 namespace PuntoDeVenta_WinFormsApp
 {
@@ -20,7 +21,9 @@ namespace PuntoDeVenta_WinFormsApp
 
             if (id == gerente.id && clave == gerente.clave)
             {
-                //Ir a nuevo form para gerentes
+                this.Hide();
+                FormEmpleados formEmpleados = new FormEmpleados();
+                formEmpleados.ShowDialog();
             }
         }
     }

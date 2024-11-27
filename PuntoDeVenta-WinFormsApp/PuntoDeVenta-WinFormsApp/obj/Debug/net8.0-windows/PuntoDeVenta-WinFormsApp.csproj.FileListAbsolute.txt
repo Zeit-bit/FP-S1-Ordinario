@@ -15,3 +15,7 @@ C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinFormsApp\PuntoDeVenta-
 C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinFormsApp\PuntoDeVenta-WinFormsApp\obj\Debug\net8.0-windows\PuntoDeVenta-WinFormsApp.pdb
 C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinFormsApp\PuntoDeVenta-WinFormsApp\obj\Debug\net8.0-windows\PuntoDeVenta-WinFormsApp.genruntimeconfig.cache
 C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinFormsApp\PuntoDeVenta-WinFormsApp\obj\Debug\net8.0-windows\ref\PuntoDeVenta-WinFormsApp.dll
+C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinFormsApp\PuntoDeVenta-WinFormsApp\obj\Debug\net8.0-windows\PuntoDeVenta_WinFormsApp.Forms.Gerente.FormEmpleados.resources
+C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinFormsApp\PuntoDeVenta-WinFormsApp\obj\Debug\net8.0-windows\PuntoDeVenta_WinFormsApp.Properties.Resources.resources
+C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinFormsApp\PuntoDeVenta-WinFormsApp\obj\Debug\net8.0-windows\PuntoDeVenta_WinFormsApp.Forms.Gerente.FormCompras.resources
+C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinFormsApp\PuntoDeVenta-WinFormsApp\obj\Debug\net8.0-windows\PuntoDeVenta_WinFormsApp.Forms.Gerente.FormProductos.resources
