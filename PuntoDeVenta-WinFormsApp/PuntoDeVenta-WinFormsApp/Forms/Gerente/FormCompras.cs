@@ -21,6 +21,8 @@ namespace PuntoDeVenta_WinFormsApp.Forms.Gerente
         {
             this.Hide();
             FormEmpleados formEmpleadas = new FormEmpleados();
+            formEmpleadas.StartPosition = FormStartPosition.Manual;
+            formEmpleadas.Location = this.Location;
             formEmpleadas.ShowDialog();
         }
 
@@ -28,6 +30,8 @@ namespace PuntoDeVenta_WinFormsApp.Forms.Gerente
         {
             this.Hide();
             FormProductos formProductos = new FormProductos();
+            formProductos.StartPosition = FormStartPosition.Manual;
+            formProductos.Location = this.Location;
             formProductos.ShowDialog();
         }
     }

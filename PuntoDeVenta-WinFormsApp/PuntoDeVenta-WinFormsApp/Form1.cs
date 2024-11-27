@@ -23,6 +23,8 @@ namespace PuntoDeVenta_WinFormsApp
             {
                 this.Hide();
                 FormEmpleados formEmpleados = new FormEmpleados();
+                formEmpleados.StartPosition = FormStartPosition.Manual;
+                formEmpleados.Location = this.Location;
                 formEmpleados.ShowDialog();
                 this.Close();
             }

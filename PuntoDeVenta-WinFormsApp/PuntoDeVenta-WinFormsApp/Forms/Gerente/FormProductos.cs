@@ -26,6 +26,8 @@ namespace PuntoDeVenta_WinFormsApp.Forms.Gerente
         {
             this.Hide();
             FormEmpleados formEmpleados = new FormEmpleados();
+            formEmpleados.StartPosition = FormStartPosition.Manual;
+            formEmpleados.Location = this.Location;
             formEmpleados.ShowDialog();
             this.Close();
         }
@@ -34,6 +36,8 @@ namespace PuntoDeVenta_WinFormsApp.Forms.Gerente
         {
             this.Hide();
             FormCompras formCompras = new FormCompras();
+            formCompras.StartPosition = FormStartPosition.Manual;
+            formCompras.Location = this.Location;
             formCompras.ShowDialog();
             this.Close();
         }
@@ -53,7 +57,7 @@ namespace PuntoDeVenta_WinFormsApp.Forms.Gerente
 
         }
 
-        private void button_login_Click(object sender, EventArgs e)
+        private void button_confirmarPrecio_Click(object sender, EventArgs e)
         {
             List<Producto> productos = JsonSerializer.Deserialize<List<Producto>>(File.ReadAllText("data/productos.json"));
             string productoAmodificar = textBox_producto.Text;

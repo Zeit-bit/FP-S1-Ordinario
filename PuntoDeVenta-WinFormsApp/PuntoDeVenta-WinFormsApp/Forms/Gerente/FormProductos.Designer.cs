@@ -239,7 +239,7 @@
             button_confirmarPrecio.TabIndex = 8;
             button_confirmarPrecio.Text = "Confirmar";
             button_confirmarPrecio.UseVisualStyleBackColor = false;
-            button_confirmarPrecio.Click += button_login_Click;
+            button_confirmarPrecio.Click += button_confirmarPrecio_Click;
             // 
             // label3
             // 
