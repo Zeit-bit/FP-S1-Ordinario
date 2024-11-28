@@ -75,6 +75,7 @@
             textBox_id.BorderStyle = BorderStyle.None;
             textBox_id.Font = new Font("Verdana", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox_id.Location = new Point(17, 21);
+            textBox_id.MaxLength = 15;
             textBox_id.Name = "textBox_id";
             textBox_id.Size = new Size(296, 30);
             textBox_id.TabIndex = 2;
@@ -134,6 +135,7 @@
             textBox_clave.BorderStyle = BorderStyle.None;
             textBox_clave.Font = new Font("Verdana", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox_clave.Location = new Point(17, 24);
+            textBox_clave.MaxLength = 15;
             textBox_clave.Name = "textBox_clave";
             textBox_clave.PasswordChar = '*';
             textBox_clave.Size = new Size(296, 30);

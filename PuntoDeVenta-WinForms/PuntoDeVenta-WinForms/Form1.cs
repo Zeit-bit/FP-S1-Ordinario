@@ -17,10 +17,10 @@ namespace PuntoDeVenta_WinForms
             string id = textBox_id.Text;
             string clave = textBox_clave.Text;
 
-            // Crea un objeto gerente con los atributos y valores de gerente.json
+            // Crea un objeto gerente con los atributos y valores de "gerente.json"
             Gerente gerente = JsonSerializer.Deserialize<Gerente>(File.ReadAllText("data/gerente.json"));
 
-            // Crea una lista de objetos empleado con los atributos y valores de empleados.json
+            // Crea una lista de objetos empleado con los atributos y valores de "empleados.json"
             List<Empleado> empleados = JsonSerializer.Deserialize<List<Empleado>>(File.ReadAllText("data/empleados.json"));
 
             // Valida credenciales
