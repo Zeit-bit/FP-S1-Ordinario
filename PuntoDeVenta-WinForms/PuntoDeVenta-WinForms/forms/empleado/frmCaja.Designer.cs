@@ -111,9 +111,14 @@
             pictureBox13 = new PictureBox();
             dataGridView_carrito = new DataGridView();
             button_pagar = new Button();
-            button_eliminar = new Button();
             label_precioTotal = new Label();
             label4 = new Label();
+            panel26 = new Panel();
+            numUpDown_cantidad = new NumericUpDown();
+            textBox_nombreProducto = new TextBox();
+            label5 = new Label();
+            label7 = new Label();
+            button_eliminar = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             flowLayoutPanel1.SuspendLayout();
@@ -154,6 +159,8 @@
             panel25.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView_carrito).BeginInit();
+            panel26.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)numUpDown_cantidad).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -1053,12 +1060,12 @@
             dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle4.WrapMode = DataGridViewTriState.False;
             dataGridView_carrito.DefaultCellStyle = dataGridViewCellStyle4;
-            dataGridView_carrito.Location = new Point(952, 145);
+            dataGridView_carrito.Location = new Point(952, 142);
             dataGridView_carrito.MultiSelect = false;
             dataGridView_carrito.Name = "dataGridView_carrito";
             dataGridView_carrito.ReadOnly = true;
             dataGridView_carrito.RowHeadersVisible = false;
-            dataGridView_carrito.Size = new Size(354, 430);
+            dataGridView_carrito.Size = new Size(354, 296);
             dataGridView_carrito.TabIndex = 3;
             // 
             // button_pagar
@@ -1067,32 +1074,18 @@
             button_pagar.FlatAppearance.BorderColor = Color.Black;
             button_pagar.FlatStyle = FlatStyle.Flat;
             button_pagar.Font = new Font("Verdana", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button_pagar.Location = new Point(1146, 625);
+            button_pagar.Location = new Point(952, 646);
             button_pagar.Name = "button_pagar";
-            button_pagar.Size = new Size(160, 80);
+            button_pagar.Size = new Size(354, 59);
             button_pagar.TabIndex = 4;
             button_pagar.Text = "Pagar";
             button_pagar.UseVisualStyleBackColor = false;
-            // 
-            // button_eliminar
-            // 
-            button_eliminar.BackColor = Color.FromArgb(205, 51, 51);
-            button_eliminar.FlatAppearance.BorderColor = Color.Black;
-            button_eliminar.FlatStyle = FlatStyle.Flat;
-            button_eliminar.Font = new Font("Verdana", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button_eliminar.ForeColor = Color.White;
-            button_eliminar.Location = new Point(952, 625);
-            button_eliminar.Name = "button_eliminar";
-            button_eliminar.Size = new Size(188, 80);
-            button_eliminar.TabIndex = 5;
-            button_eliminar.Text = "Eliminar";
-            button_eliminar.UseVisualStyleBackColor = false;
             // 
             // label_precioTotal
             // 
             label_precioTotal.AutoSize = true;
             label_precioTotal.Font = new Font("Verdana", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label_precioTotal.Location = new Point(952, 585);
+            label_precioTotal.Location = new Point(952, 614);
             label_precioTotal.Name = "label_precioTotal";
             label_precioTotal.Size = new Size(168, 29);
             label_precioTotal.TabIndex = 6;
@@ -1102,20 +1095,92 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Verdana", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(952, 113);
+            label4.Location = new Point(952, 110);
             label4.Name = "label4";
             label4.Size = new Size(253, 29);
             label4.TabIndex = 7;
             label4.Text = "Carrito de compras:";
+            // 
+            // panel26
+            // 
+            panel26.BackColor = Color.FromArgb(247, 247, 247);
+            panel26.BorderStyle = BorderStyle.FixedSingle;
+            panel26.Controls.Add(numUpDown_cantidad);
+            panel26.Controls.Add(textBox_nombreProducto);
+            panel26.Controls.Add(label5);
+            panel26.Controls.Add(label7);
+            panel26.Controls.Add(button_eliminar);
+            panel26.Location = new Point(952, 444);
+            panel26.Name = "panel26";
+            panel26.Size = new Size(354, 153);
+            panel26.TabIndex = 10;
+            // 
+            // numUpDown_cantidad
+            // 
+            numUpDown_cantidad.BackColor = Color.FromArgb(234, 234, 234);
+            numUpDown_cantidad.BorderStyle = BorderStyle.FixedSingle;
+            numUpDown_cantidad.Font = new Font("Verdana", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            numUpDown_cantidad.Location = new Point(15, 103);
+            numUpDown_cantidad.Maximum = new decimal(new int[] { 64, 0, 0, 0 });
+            numUpDown_cantidad.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            numUpDown_cantidad.Name = "numUpDown_cantidad";
+            numUpDown_cantidad.Size = new Size(120, 37);
+            numUpDown_cantidad.TabIndex = 6;
+            numUpDown_cantidad.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // textBox_nombreProducto
+            // 
+            textBox_nombreProducto.BackColor = Color.FromArgb(234, 234, 234);
+            textBox_nombreProducto.BorderStyle = BorderStyle.FixedSingle;
+            textBox_nombreProducto.Font = new Font("Verdana", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox_nombreProducto.Location = new Point(15, 33);
+            textBox_nombreProducto.MaxLength = 18;
+            textBox_nombreProducto.Name = "textBox_nombreProducto";
+            textBox_nombreProducto.Size = new Size(323, 37);
+            textBox_nombreProducto.TabIndex = 2;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Verdana", 12F);
+            label5.Location = new Point(13, 11);
+            label5.Name = "label5";
+            label5.Size = new Size(181, 18);
+            label5.TabIndex = 4;
+            label5.Text = "Nombre de producto:";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Verdana", 12F);
+            label7.Location = new Point(14, 82);
+            label7.Name = "label7";
+            label7.Size = new Size(81, 18);
+            label7.TabIndex = 5;
+            label7.Text = "Cantidad";
+            // 
+            // button_eliminar
+            // 
+            button_eliminar.BackColor = Color.FromArgb(205, 51, 51);
+            button_eliminar.FlatAppearance.BorderColor = SystemColors.ControlText;
+            button_eliminar.FlatStyle = FlatStyle.Flat;
+            button_eliminar.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button_eliminar.ForeColor = Color.White;
+            button_eliminar.Location = new Point(164, 82);
+            button_eliminar.Name = "button_eliminar";
+            button_eliminar.Size = new Size(174, 58);
+            button_eliminar.TabIndex = 4;
+            button_eliminar.Text = "Eliminar";
+            button_eliminar.UseVisualStyleBackColor = false;
             // 
             // frmCaja
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1318, 717);
+            Controls.Add(panel26);
             Controls.Add(label4);
             Controls.Add(label_precioTotal);
-            Controls.Add(button_eliminar);
             Controls.Add(button_pagar);
             Controls.Add(dataGridView_carrito);
             Controls.Add(flowLayoutPanel1);
@@ -1176,6 +1241,9 @@
             panel25.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView_carrito).EndInit();
+            panel26.ResumeLayout(false);
+            panel26.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)numUpDown_cantidad).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -1261,8 +1329,14 @@
         private PictureBox pictureBox13;
         private DataGridView dataGridView_carrito;
         private Button button_pagar;
-        private Button button_eliminar;
         private Label label_precioTotal;
         private Label label4;
+        private NumericUpDown numUpDown_cantidad;
+        private Button button_eliminarProducto;
+        private Panel panel26;
+        private TextBox textBox_nombreProducto;
+        private Label label5;
+        private Label label7;
+        private Button button_eliminar;
     }
 }
