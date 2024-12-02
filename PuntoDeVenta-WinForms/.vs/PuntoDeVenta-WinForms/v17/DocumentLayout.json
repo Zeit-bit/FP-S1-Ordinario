@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|c:\\users\\patricio\\desktop\\fp-s1-ordinario\\puntodeventa-winforms\\puntodeventa-winforms\\forms\\empleado\\frmcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|solutionrelative:puntodeventa-winforms\\forms\\empleado\\frmcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\puntodeventa-winforms\\forms\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|solutionrelative:puntodeventa-winforms\\forms\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\puntodeventa-winforms\\forms\\empleado\\frmcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|solutionrelative:puntodeventa-winforms\\forms\\empleado\\frmcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|c:\\users\\patricio\\desktop\\fp-s1-ordinario\\puntodeventa-winforms\\puntodeventa-winforms\\forms\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|solutionrelative:puntodeventa-winforms\\forms\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|c:\\users\\patricio\\desktop\\fp-s1-ordinario\\puntodeventa-winforms\\puntodeventa-winforms\\classes\\winformutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|solutionrelative:puntodeventa-winforms\\classes\\winformutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|c:\\users\\patricio\\desktop\\fp-s1-ordinario\\puntodeventa-winforms\\puntodeventa-winforms\\forms\\empleado\\frmcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|solutionrelative:puntodeventa-winforms\\forms\\empleado\\frmcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|c:\\users\\patricio\\desktop\\fp-s1-ordinario\\puntodeventa-winforms\\puntodeventa-winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|solutionrelative:puntodeventa-winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +30,34 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\Form1.cs",
+              "RelativeDocumentMoniker": "PuntoDeVenta-WinForms\\Form1.cs",
+              "ToolTip": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\Form1.cs",
+              "RelativeToolTip": "PuntoDeVenta-WinForms\\Form1.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwCcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T23:58:14.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WinformUtils.cs",
+              "DocumentMoniker": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\classes\\WinformUtils.cs",
+              "RelativeDocumentMoniker": "PuntoDeVenta-WinForms\\classes\\WinformUtils.cs",
+              "ToolTip": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\classes\\WinformUtils.cs",
+              "RelativeToolTip": "PuntoDeVenta-WinForms\\classes\\WinformUtils.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T23:58:12.131Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -38,20 +72,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "frmCaja.cs",
               "DocumentMoniker": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\forms\\empleado\\frmCaja.cs",
               "RelativeDocumentMoniker": "PuntoDeVenta-WinForms\\forms\\empleado\\frmCaja.cs",
               "ToolTip": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\forms\\empleado\\frmCaja.cs",
               "RelativeToolTip": "PuntoDeVenta-WinForms\\forms\\empleado\\frmCaja.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAArwHsAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAswH0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T22:15:14.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "frmCaja.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\forms\\empleado\\frmCaja.cs",
               "RelativeDocumentMoniker": "PuntoDeVenta-WinForms\\forms\\empleado\\frmCaja.cs",
