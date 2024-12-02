@@ -1,11 +1,13 @@
 using System.Text.Json;
 using PuntoDeVenta_WinForms.classes;
 using PuntoDeVenta_WinForms.forms;
+using PuntoDeVenta_WinForms.forms.empleado;
 
 namespace PuntoDeVenta_WinForms
 {
     public partial class Form1 : Form
     {
+        public static int indiceEmpleado;
         public Form1()
         {
             InitializeComponent();
@@ -27,14 +29,15 @@ namespace PuntoDeVenta_WinForms
             if (id == gerente.id &&  clave == gerente.clave)
             {
                 WinformUtils.openForm(this, new frmPanelGerente());
+                return;
             } else
             {
                 for (int i = 0; i < empleados.Count; i++)
                 {
                     if (id == empleados[i].id && clave == empleados[i].clave)
                     {
-                        MessageBox.Show("Eres empleado");
-                        // LLevar a dashboard de empleado
+                        indiceEmpleado = i;
+                        WinformUtils.openForm(this, new frmCaja());
                         return;
                     }
                 }
