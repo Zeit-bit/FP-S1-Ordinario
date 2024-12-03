@@ -21,3 +21,4 @@ C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-Win
 C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\PuntoDeVenta_WinForms.forms.frmCompras.resources
 C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\PuntoDeVenta_WinForms.forms.frmProductos.resources
 C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\PuntoDeVenta_WinForms.forms.empleado.frmCaja.resources
+C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\PuntoDeVenta_WinForms.forms.empleado.frmCobro.resources

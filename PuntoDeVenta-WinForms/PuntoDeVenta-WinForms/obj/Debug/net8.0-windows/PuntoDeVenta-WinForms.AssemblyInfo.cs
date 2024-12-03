@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PuntoDeVenta-WinForms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+087ec94eb4b7b98518ffa2627ef6dd3063e4071c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8720e8b1fa2b3c0536559d8b48618eb0c1128957")]
 [assembly: System.Reflection.AssemblyProductAttribute("PuntoDeVenta-WinForms")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PuntoDeVenta-WinForms")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

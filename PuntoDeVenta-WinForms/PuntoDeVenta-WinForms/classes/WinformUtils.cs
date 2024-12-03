@@ -51,5 +51,16 @@ namespace PuntoDeVenta_WinForms.classes
                 btns[i].ForeColor = Color.Black;
             }
         }
+
+        // Metodo para restablecer los colores de todos los botones
+        public static void deselectAllBtns(Button[] btns)
+        {
+            for (int i = 0; i < btns.Length; i++)
+            {
+                btns[i].BackColor = Color.FromArgb(234, 234, 234);
+                btns[i].FlatAppearance.BorderColor = Color.Black;
+                btns[i].ForeColor = Color.Black;
+            }
+        }
     }
 }

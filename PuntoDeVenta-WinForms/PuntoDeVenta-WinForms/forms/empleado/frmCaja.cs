@@ -7,7 +7,7 @@ namespace PuntoDeVenta_WinForms.forms.empleado
     {
         public static List<ProductoEnCarrito> carrito = new List<ProductoEnCarrito>();
         private List<Producto> productos = JsonSerializer.Deserialize<List<Producto>>(File.ReadAllText("data/productos.json"));
-        public int precioTotal;
+        public static int precioTotal;
         public frmCaja()
         {
             InitializeComponent();
@@ -158,14 +158,26 @@ namespace PuntoDeVenta_WinForms.forms.empleado
                 if (carrito[indiceCarrito].qty == 0)
                 {
                     carrito.Remove(carrito[indiceCarrito]);
-                    
+
                 }
                 dataGridView_carrito.DataSource = null;
                 dataGridView_carrito.DataSource = carrito;
                 dataGridView_carrito.Columns[0].Width = 50;
-            } else
+            }
+            else
             {
                 MessageBox.Show("El producto ingresado no existe");
+            }
+        }
+
+        private void button_pagar_Click(object sender, EventArgs e)
+        {
+            if (carrito.Count > 0)
+            {
+                WinformUtils.openForm(this, new frmCobro());
+            } else
+            {
+                MessageBox.Show("Primero agrega algun producto, antes de continuar con el pago");
             }
         }
     }

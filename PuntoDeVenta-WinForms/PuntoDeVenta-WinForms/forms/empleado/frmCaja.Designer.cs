@@ -182,7 +182,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Verdana", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(652, 27);
+            label2.Location = new Point(631, 27);
             label2.Name = "label2";
             label2.Size = new Size(106, 38);
             label2.TabIndex = 6;
@@ -1080,6 +1080,7 @@
             button_pagar.TabIndex = 4;
             button_pagar.Text = "Pagar";
             button_pagar.UseVisualStyleBackColor = false;
+            button_pagar.Click += button_pagar_Click;
             // 
             // label_precioTotal
             // 

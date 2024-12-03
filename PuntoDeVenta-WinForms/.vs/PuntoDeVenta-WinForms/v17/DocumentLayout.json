@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|c:\\users\\patricio\\desktop\\fp-s1-ordinario\\puntodeventa-winforms\\puntodeventa-winforms\\forms\\empleado\\frmcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|solutionrelative:puntodeventa-winforms\\forms\\empleado\\frmcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|c:\\users\\patricio\\desktop\\fp-s1-ordinario\\puntodeventa-winforms\\puntodeventa-winforms\\forms\\empleado\\frmcobro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|solutionrelative:puntodeventa-winforms\\forms\\empleado\\frmcobro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\puntodeventa-winforms\\forms\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|solutionrelative:puntodeventa-winforms\\forms\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\bin\\Debug\\net8.0-windows\\data\\tarjetas.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PuntoDeVenta-WinForms\\bin\\Debug\\net8.0-windows\\data\\tarjetas.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\puntodeventa-winforms\\forms\\empleado\\frmcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|solutionrelative:puntodeventa-winforms\\forms\\empleado\\frmcaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\bin\\Debug\\net8.0-windows\\data\\compras.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PuntoDeVenta-WinForms\\bin\\Debug\\net8.0-windows\\data\\compras.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|c:\\users\\patricio\\desktop\\fp-s1-ordinario\\puntodeventa-winforms\\puntodeventa-winforms\\classes\\winformutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|solutionrelative:puntodeventa-winforms\\classes\\winformutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|c:\\users\\patricio\\desktop\\fp-s1-ordinario\\puntodeventa-winforms\\puntodeventa-winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|solutionrelative:puntodeventa-winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\puntodeventa-winforms\\forms\\empleado\\frmcobro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D68D9423-0A7B-4B14-A938-1811E210B90C}|PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms.csproj|solutionrelative:puntodeventa-winforms\\forms\\empleado\\frmcobro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +26,56 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\Form1.cs",
-              "RelativeDocumentMoniker": "PuntoDeVenta-WinForms\\Form1.cs",
-              "ToolTip": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\Form1.cs",
-              "RelativeToolTip": "PuntoDeVenta-WinForms\\Form1.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwCcAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "compras.json",
+              "DocumentMoniker": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\bin\\Debug\\net8.0-windows\\data\\compras.json",
+              "RelativeDocumentMoniker": "PuntoDeVenta-WinForms\\bin\\Debug\\net8.0-windows\\data\\compras.json",
+              "ToolTip": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\bin\\Debug\\net8.0-windows\\data\\compras.json",
+              "RelativeToolTip": "PuntoDeVenta-WinForms\\bin\\Debug\\net8.0-windows\\data\\compras.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-03T01:27:46.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "tarjetas.json",
+              "DocumentMoniker": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\bin\\Debug\\net8.0-windows\\data\\tarjetas.json",
+              "RelativeDocumentMoniker": "PuntoDeVenta-WinForms\\bin\\Debug\\net8.0-windows\\data\\tarjetas.json",
+              "ToolTip": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\bin\\Debug\\net8.0-windows\\data\\tarjetas.json",
+              "RelativeToolTip": "PuntoDeVenta-WinForms\\bin\\Debug\\net8.0-windows\\data\\tarjetas.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-03T01:07:37.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmCobro.cs",
+              "DocumentMoniker": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\forms\\empleado\\frmCobro.cs",
+              "RelativeDocumentMoniker": "PuntoDeVenta-WinForms\\forms\\empleado\\frmCobro.cs",
+              "ToolTip": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\forms\\empleado\\frmCobro.cs",
+              "RelativeToolTip": "PuntoDeVenta-WinForms\\forms\\empleado\\frmCobro.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwFAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T23:58:14.529Z",
+              "WhenOpened": "2024-12-03T00:44:06.507Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "WinformUtils.cs",
-              "DocumentMoniker": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\classes\\WinformUtils.cs",
-              "RelativeDocumentMoniker": "PuntoDeVenta-WinForms\\classes\\WinformUtils.cs",
-              "ToolTip": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\classes\\WinformUtils.cs",
-              "RelativeToolTip": "PuntoDeVenta-WinForms\\classes\\WinformUtils.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAqwBMAAAAMAAAAAAAAAA==",
+              "Title": "frmCobro.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\forms\\empleado\\frmCobro.cs",
+              "RelativeDocumentMoniker": "PuntoDeVenta-WinForms\\forms\\empleado\\frmCobro.cs",
+              "ToolTip": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\forms\\empleado\\frmCobro.cs [Design]",
+              "RelativeToolTip": "PuntoDeVenta-WinForms\\forms\\empleado\\frmCobro.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T23:58:12.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmProductos.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\forms\\frmProductos.cs",
-              "RelativeDocumentMoniker": "PuntoDeVenta-WinForms\\forms\\frmProductos.cs",
-              "ToolTip": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\forms\\frmProductos.cs [Design]",
-              "RelativeToolTip": "PuntoDeVenta-WinForms\\forms\\frmProductos.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T16:13:20.311Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmCaja.cs",
-              "DocumentMoniker": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\forms\\empleado\\frmCaja.cs",
-              "RelativeDocumentMoniker": "PuntoDeVenta-WinForms\\forms\\empleado\\frmCaja.cs",
-              "ToolTip": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\forms\\empleado\\frmCaja.cs",
-              "RelativeToolTip": "PuntoDeVenta-WinForms\\forms\\empleado\\frmCaja.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAswH0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T22:15:14.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmCaja.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\forms\\empleado\\frmCaja.cs",
-              "RelativeDocumentMoniker": "PuntoDeVenta-WinForms\\forms\\empleado\\frmCaja.cs",
-              "ToolTip": "C:\\Users\\Patricio\\Desktop\\FP-S1-Ordinario\\PuntoDeVenta-WinForms\\PuntoDeVenta-WinForms\\forms\\empleado\\frmCaja.cs [Design]",
-              "RelativeToolTip": "PuntoDeVenta-WinForms\\forms\\empleado\\frmCaja.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T23:42:47.106Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-03T00:26:56.066Z"
             }
           ]
         }
