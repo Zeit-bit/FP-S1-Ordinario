@@ -412,7 +412,8 @@
             Controls.Add(panel6);
             Controls.Add(panel5);
             Controls.Add(panel1);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            MaximizeBox = false;
             Name = "frmCobro";
             StartPosition = FormStartPosition.CenterParent;
             Text = "frmCobro";

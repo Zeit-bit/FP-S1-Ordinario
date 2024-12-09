@@ -192,7 +192,8 @@
             Controls.Add(panel_formLoader);
             Controls.Add(panel2);
             Controls.Add(panel1);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            MaximizeBox = false;
             Name = "frmPanelGerente";
             Text = "frmPanelGerente";
             panel1.ResumeLayout(false);

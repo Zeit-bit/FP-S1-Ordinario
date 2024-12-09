@@ -1187,7 +1187,8 @@
             Controls.Add(dataGridView_carrito);
             Controls.Add(flowLayoutPanel1);
             Controls.Add(panel1);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            MaximizeBox = false;
             Name = "frmCaja";
             Text = "frmCaja";
             panel1.ResumeLayout(false);

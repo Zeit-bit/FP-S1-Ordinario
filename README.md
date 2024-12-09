@@ -1,5 +1,6 @@
 # FP-S1-Ordinario
 Examen ordinario de "fundamentos de programación" [Primer Semestre]
+Miembros del equipo: César Augusto Sosa Realpozo, Olaf David López Flores, Patricio Reyes Álvarez, Santiago de Jesús Arcos Guzmán.
 
 # Ventana de login:
 - El gerente puede iniciar sesión con nombre de usuario y contraseña (proporcionados por el sistema y validados con un JSON).

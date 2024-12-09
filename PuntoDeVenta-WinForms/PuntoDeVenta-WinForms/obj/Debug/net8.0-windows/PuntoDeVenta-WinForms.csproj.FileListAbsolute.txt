@@ -4,6 +4,13 @@ C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-Win
 C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\bin\Debug\net8.0-windows\PuntoDeVenta-WinForms.dll
 C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\bin\Debug\net8.0-windows\PuntoDeVenta-WinForms.pdb
 C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\PuntoDeVenta_WinForms.Form1.resources
+C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\PuntoDeVenta_WinForms.forms.empleado.frmCaja.resources
+C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\PuntoDeVenta_WinForms.forms.empleado.frmCobro.resources
+C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\PuntoDeVenta_WinForms.forms.frmCompras.resources
+C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\PuntoDeVenta_WinForms.forms.frmEmpleados.resources
+C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\PuntoDeVenta_WinForms.forms.frmPanelGerente.resources
+C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\PuntoDeVenta_WinForms.forms.frmProductos.resources
+C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\PuntoDeVenta_WinForms.Properties.Resources.resources
 C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\PuntoDeVenta-WinForms.csproj.GenerateResource.cache
 C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\PuntoDeVenta-WinForms.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\PuntoDeVenta-WinForms.AssemblyInfoInputs.cache
@@ -15,10 +22,3 @@ C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-Win
 C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\PuntoDeVenta-WinForms.pdb
 C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\PuntoDeVenta-WinForms.genruntimeconfig.cache
 C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\ref\PuntoDeVenta-WinForms.dll
-C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\PuntoDeVenta_WinForms.Properties.Resources.resources
-C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\PuntoDeVenta_WinForms.forms.frmPanelGerente.resources
-C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\PuntoDeVenta_WinForms.forms.frmEmpleados.resources
-C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\PuntoDeVenta_WinForms.forms.frmCompras.resources
-C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\PuntoDeVenta_WinForms.forms.frmProductos.resources
-C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\PuntoDeVenta_WinForms.forms.empleado.frmCaja.resources
-C:\Users\Patricio\Desktop\FP-S1-Ordinario\PuntoDeVenta-WinForms\PuntoDeVenta-WinForms\obj\Debug\net8.0-windows\PuntoDeVenta_WinForms.forms.empleado.frmCobro.resources
